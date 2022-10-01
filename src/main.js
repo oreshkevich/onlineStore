@@ -4,7 +4,6 @@ import router from './router';
 import store from './store';
 import vuetify from './plugins/vuetify';
 import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
 Vue.config.productionTip = false;
 
 new Vue({
@@ -25,6 +24,5 @@ new Vue({
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
   },
 }).$mount('#app');

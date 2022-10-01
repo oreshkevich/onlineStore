@@ -1,5 +1,7 @@
 // import * as fb from 'firebase';
-import * as fb from 'firebase/app';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 class User {
   constructor(id) {
