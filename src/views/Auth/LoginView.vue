@@ -66,6 +66,12 @@ export default {
           password: this.password,
         };
         console.log(user);
+        // this.$store
+        //   .dispatch('loginUser', user)
+        //   .then(() => {
+        //     this.$router.push('/');
+        //   })
+        //   .catch(() => {});
       }
     },
   },
